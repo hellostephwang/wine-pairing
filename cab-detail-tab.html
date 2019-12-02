@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cabernet Sauvignon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--font-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap">
+
+  <!-- ///stylesheets///-->
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Animate CSS-->
+  <link rel="stylesheet" href="animate.css">
+  <!-- Custom CSS-->
+  <link rel="stylesheet" href="custom.css">
+
+    <!--jQuery linked for Bootstrap-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- p5 -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+</head>
+
+
+<body class="red-wine">
+  <!-- Boostrap JS-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+
+
+
+  <div class="container">
+    <div class="back-diff"><a href="index.html">try a different a wine</a>
+    </div>
+    <h1>Cabernet Sauvignon</h1>
+
+    <ul class="nav nav-pills nav-justified">
+      <li class="active"><a data-toggle="tab" href="#menu1">Flavor Profile</a></li>
+      <li><a data-toggle="tab" href="#menu2">Top Producers</a></li>
+      <li><a data-toggle="tab" href="#menu3">Pairing</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="menu1" class="tab-pane fade active in">
+        <div class="container flavor-profile">
+          <h2>Flavor Profile</h2>
+          <div class="row">
+            <div class="col-sm-3" id="p5-grape"></div>
+            <div class="col-sm-2 animated fadeInDownBig"><h3>plum<br><br>black cherry<br><br>blackberry<br><br> blueberry <br><br> warm spice <br><br> vanilla</h3></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5"><img src="assets/grape.svg" alt="grapes"></div>
+          </div>
+        </div>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <div class="container top-producers">
+          <h2>Top Producers</h2>
+          <div class="row">
+            <div class="col-sm-4 animated fadeIn"><h3>France</h3></div>
+            <div class="col-sm-4 animated fadeIn"><h3>United States</h3></div>
+            <div class="col-sm-4 animated fadeIn"><h3>Italy</h3></div>
+        </div>
+        <div class="col-sm-6"><img src="assets/world-map-1.svg" alt="world map"></div>
+        </div>
+      </div>
+      <div id="menu3" class="tab-pane fade">
+        <div class="container pairing">
+          <h2>Pairing</h2>
+          <!-- <div class="row">
+            <button onclick="pairEntree()" type="button" class="btn btn-pair text-center">Pair Food</button> -->
+            <!-- <button type="button" class="btn btn-pair">Pair Dessert</button> -->
+          </div>
+          <div class="row">
+            <div class="col-sm-3 img-bottom"><img src="assets/flower-vase.svg" alt="flower-vase"></div>
+            <div class="col-sm-1 img-bottom"><img src="assets/bottle-cab.svg" alt="wine bottle"></div>
+            <div class="col-sm-1 img-bottom"><img src="assets/wine-glass.svg" alt="wine glass"></div>
+            <div class="col-sm-6 img-bottom">
+              <div id="steak" class="animated fadeInDownBig"><h3 class="animated bounceIn"><span class="food-pairing-color">Steak</span> is the go-to pairing for Cabernet. Especially slightly fattier steaks like ribeye and sirloin, served rare to medium-rare.
+              </h3><img src="assets/steak.svg" alt="steak"></div>
+              <img src="assets/plate.svg" alt="plate">
+            </div>
+            <div class="col-sm-1 img-bottom"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

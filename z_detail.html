@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cabernet Sauvignon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--font-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap">
+
+  <!-- ///stylesheets///-->
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Animate CSS-->
+  <link rel="stylesheet" href="animate.css">
+  <!-- Custom CSS-->
+  <link rel="stylesheet" href="custom.css">
+
+    <!--jQuery linked for Bootstrap-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- p5 -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+</head>
+
+
+<body class="red-wine">
+  <!-- Boostrap JS-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+
+  <div class="container">
+    <h1>Cabernet Sauvignon</h1>
+    <a href="index.html">Try a different a flavor</a>
+
+    <div class="container flavor-profile">
+      <h2>Flavor Profile</h2>
+      <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2 img-bottom"><img src="assets/grape.svg" alt="grapes"></div>
+        <div class="col-sm-5"></div>
+      </div>
+    </div>
+
+
+    <div class="container top-producers">
+      <h2>Top Producers</h2>
+      <img src="assets/world-map-red.svg" alt="world map">
+    </div>
+
+    <div class="container pairing">
+      <h2>Pairing</h2>
+      <div class="row">
+        <button onclick="pairEntree()" type="button" class="btn btn-pair">Pair Entree</button>
+        <button type="button" class="btn btn-pair">Pair Dessert</button>
+      </div>
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-1 img-bottom"><img src="assets/bottle.svg" alt="wine bottle"></div>
+        <div class="col-sm-1 img-bottom"><img src="assets/wine-glass.svg" alt="wine glass"></div>
+        <div class="col-sm-6 img-bottom">
+          <div id="steak" class="hidden"><img src="assets/steak.svg" alt="steak"></div>
+          <img src="assets/plate.svg" alt="plate">
+        </div>
+        <div class="col-sm-1 img-bottom"></div>
+      </div>
+    </div>
+    
+</div>
+
+</body>
+</html>

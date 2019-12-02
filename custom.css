@@ -1,0 +1,70 @@
+/* Colors */
+/* #C9729E pink-purple */
+/* #C55454 red */
+/* #C9729E white */
+
+.homepage {
+  background-color: #C9729E;
+  color: white;
+  font-family: Lato;
+}
+
+.red-wine {
+  background-color: #C55454;
+  color: white;
+  font-family: Lato;
+}
+
+.white-wine {
+  background-color: #D1A769;
+  color: white;
+  font-family: Lato;
+}
+
+.food-pairing-color {
+  color: #C9729E;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #D0CCD2;
+  text-decoration: none;
+}
+
+h1{
+  font-family: "Playfair-Display";
+}
+
+h3{
+  font-family: "Lato";
+  font-weight: lighter;
+}
+
+.btn-pair{
+  background-color: white;
+  color: #C55454;
+}
+
+.img-bottom {
+  /* border: 3px solid blue; */
+  float: none;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.back-diff{
+  margin-top: 20px;
+}
+
+/*nav pill active color */
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #C9729E;
+  }
+
+  .nav>li>a {
+    font-family: "Playfair-Display";
+  }
