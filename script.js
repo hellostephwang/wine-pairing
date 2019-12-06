@@ -1,13 +1,12 @@
+// adding classes animated bounce infinite on hover
 $(document).ready(function(){
     $('.wine-bottle').hover(function(){
         $(this).addClass('animated bounce infinite');
     });
 });
 
-// Demonstration of multiple force acting on
-// bodies (Mover class)
-// Bodies experience gravity continuously
-// Bodies experience fluid resistance when in "water"
+// p5.js code of multiple force acting on bodies
+//random droplets of circles (grapes)
 
 // Five moving bodies
 let movers = [];
